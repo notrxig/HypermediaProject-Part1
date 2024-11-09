@@ -1,0 +1,61 @@
+body{
+	font-family: 'Inter';
+	font-size: 15px;
+	line-height:20px;
+	padding: 0px;
+	margin: 0px;
+	background-image: url("https://pbs.twimg.com/media/CcKXjjIUMAA7f11?format=jpg&name=4096x4096");
+}
+
+li{
+	margin-bottom: 10px;
+}
+
+.intro{
+	display: flex;
+	height: 200px;
+	background-image: url("https://pbs.twimg.com/media/CcKXjjIUMAA7f11?format=jpg&name=4096x4096");
+	background-position: center;
+	color: white;
+	align-items: center;
+}	
+
+img{
+	display:flex;
+	width: 150px;
+	position: static;
+	border-radius: 50%;
+	padding: 30px;
+}
+
+.columna{
+	display: flex;
+	height: 700px;
+	background-clip: border-box;
+}
+
+.left{
+	padding: 30px;
+	background-color: #313131;
+	color: white;
+	width: 30%;
+}
+
+.right{
+	background-color: #E4E4E4;
+	width: 70%;
+	padding: 30px;
+}
+
+.a{
+	float: absolute;
+	padding-left: 20px;
+	font-size: 48px;
+	vertical-align:middle;
+}
+
+.sub{
+	float: absolute;
+	font-size: 24px;
+	font-weight: normal;
+}
